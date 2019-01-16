@@ -1,0 +1,57 @@
+body {
+    background-image: url("../project1/background.jpg");
+}
+
+div.cave1 {
+    float: right;
+    padding: 0px;
+    position: fixed;
+    right: 175px;
+    bottom: 10px 
+}
+
+div.cave2 {
+    float: right;
+    padding: 0px;
+    position:fixed;
+    right: 550px;
+    bottom: 10px 
+}
+
+div.cave3 {
+    float: right;
+    padding: 0px;
+    position:fixed;
+    right: 925px;
+    bottom: 10px; 
+}
+
+div.stick {
+    float: left;
+    padding: 0px;
+    position:fixed;
+    left: 100px;
+    bottom: 165px; 
+}
+
+div.treasure{
+    float: right;
+    padding: 0px;
+    position: fixed;
+    left: 500px;
+    bottom: 10px;
+}
+
+h1 {
+    font-family: "Brush Script MT", "Brush Script Std", cursive;
+    text-align: center;
+    font-weight: bold;
+    font-size: 80px;
+}
+
+p {
+    font-family: "Brush Script MT", "Brush Script Std", cursive;
+    text-align: center;
+    font-size: 60px;
+}
+

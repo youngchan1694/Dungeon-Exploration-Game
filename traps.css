@@ -1,0 +1,77 @@
+
+body {
+    background-image: url("../project1/background.jpg");
+}
+
+
+div.stick {
+    float: left;
+    padding: 0px;
+    position:fixed;
+    left: 50px;
+    bottom: 100px; 
+}
+
+h1, h2 {
+    font-family: "Brush Script MT", "Brush Script Std", cursive;
+    text-align: center;
+    font-weight: bold;
+    font-size: 50px;
+}
+
+p {
+    font-family: "Brush Script MT", "Brush Script Std", cursive;
+    text-align: center;
+    font-size: 40px;
+}
+
+#snake {
+    position: relative;
+    -webkit-animation: moveRight 4s;
+    animation: moveRight 4s;
+    position: fixed;
+    bottom: 20px; 
+}
+
+
+#spear {
+    position: relative;
+    -webkit-animation: moveRight 4s normal;
+    animation: moveRight 4s normal;
+    position: fixed;
+    bottom: 225px;
+}
+
+#boulder {
+    position: relative;
+    -webkit-animation: moveRight 4s normal;
+    animation: moveRight 4s normal;
+    position: fixed;
+    bottom: 100px;
+}
+
+#saw {
+    position: relative;
+    -webkit-animation: moveRight 4s normal;
+    animation: moveRight 4s normal;
+    position: fixed;
+    bottom: 225px;
+}
+
+@keyframes moveRight {
+    from {  
+        left: 1000px;
+    }
+    to {
+        left: 50px;
+    }
+}
+
+@-webkit-keyframes moveRight {
+    from {  
+        left: 1000px;
+    }
+    to {
+        left: 50px;
+    }
+}
